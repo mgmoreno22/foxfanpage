@@ -1,0 +1,66 @@
+header {
+    background-color: #FFA366;
+    margin: 0;
+}
+
+main {
+    background-color: #FFEBCC;
+    margin-top: 0px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pageTitle {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* ------------ Start of Nav Bar---------- */
+.navContainer {
+    border: 5px solid #FF8533;
+    display: flex;
+    overflow: hidden;
+}
+
+.navContainer > div {
+    flex: 1;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+/*
+.navBox1, .navBox2, .navBox3, .navBox4 {
+    padding: 5px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+*/
+.navBox1, .navBox3 {
+    background-color: #CC0000;
+}
+
+.navBox2, .navBox4 {
+    background-color: #E68A00;
+}
+
+/* ----------- End of Nav Bar ----------- */
+
+.heroImg {
+    display: block;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
