@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 header {
     background-color: #FFA366;
     margin: 0;
@@ -10,11 +16,15 @@ main {
 
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px 10px;
+    margin: 8px 0px;
 }
 
 .pageTitle {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 45px;
 }
 
 /* ------------ Start of Nav Bar---------- */
